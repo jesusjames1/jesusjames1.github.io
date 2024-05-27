@@ -1,0 +1,91 @@
+.container {
+width: 600px;
+height: 100%;
+border: 5px solid black;
+padding: 20%;
+margin: auto;
+}
+
+form {
+    padding: 5%;
+    background-color: darkslategrey;
+    color:darkgrey;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.signup,
+.login {
+height: 50px;
+box-sizing: border-box;
+border: none;
+width: 50%;
+}
+
+.firstline {
+    display: flex;
+    justify-content: center;
+}
+.signup {
+    background: darkslateblue;
+    color: darkgray;
+}
+
+.login{
+    background: darkgray;
+}
+
+.secondline {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+#fname,
+#lname
+{
+    width: 48%;
+    height: 30px;
+    background: darkslategrey;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    background-color: darkslategrey
+
+}
+
+#email,
+#password 
+{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    background: darkslategrey;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    background-color: darkslategrey
+}
+
+.submitbutton {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: none;
+    background: darkslateblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    box-sizing: border-box;
+    color:darkgrey;
+    animation: highlight 1.5s infinite; 
+}
+
+@keyframes highlight {
+    0% {background-color: darkslateblue;}
+    100%{background-color: gray;}
+}
