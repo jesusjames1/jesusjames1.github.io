@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+</head>
+<body>
+
+<div id="firstpage">
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#NurseryPlants">Shop Nursery</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+    
+                    <li class="nav-item">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modal">Login</button>
+  
+                    <!-- Modal -->
+                        <div class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                        <!--form -->
+                                        <div class="formcontainer">
+                                            <form action="xxzxzxxzcxz" class="popup">
+                                        
+                                                <div class="firstline">
+                                                <input type="button" value="Sign Up" class="signup">
+                                                <input type="submit" value="Login" class="login">
+                                                </div>
+                                        
+                                                <h1 class="formheading">Sign Up For Free</h1>
+                                        
+                                                <div class="secondline">
+                                                <input type="text" id="fname" name="fname" placeholder="First Name*">
+                                                <input type="text" id="lname" name="lname" placeholder="Last Name*">
+                                                </div>
+                                        
+                                                <input type="email" name="email" id="email" placeholder="Email Address"><br>
+                                                <input type="password" name="password" id="password" placeholder="Set A Password*"><br>
+                                                <input type="submit" value="Get Started" class="submitbutton">
+                                                
+                                                <div class="vertical-center">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </li>
+                    <li class="nav-item"><a a class="nav-link" href="">About</a></li>
+                    <li class="nav-item"><a a class="nav-link" href="">Contacts</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+
+<section class="increasefont">
+<p>A flower a day, keeps the doctor at bay</p>
+<h1>Consider an Elegant Bouquet</h1>
+</section>
+</div>
+
+<section class="paragraphs" id="NurseryPlants">
+
+                        <div class="container">
+                            <div class="row">
+                                <h1 class="heading2">Select a Wikipedia Arrangement</h1>
+                                <div class="col-sm">
+                                    <div class="card text-center" style="width: 18rem;" mx-auto>
+                                        <h5 class="card-title">Buttercup</h5>
+                                        <img class="card-img-top" src="/Images/Chinese_Wisteria_Blütentrauben.JPG" alt="Buttercup" width="300px" Height="300px" px="5px">
+                                        <div class="card-body">
+                                        <p class="card-text" class="text-center">Ranunculus is a large genus of about 1700 to more than 1800 species of flowering plants in the family Ranunculaceae. Members of the genus are known as buttercups, spearworts and water crowfoots.</p>
+                                          <!-- Button trigger modal -->
+                                        <button type="button" class="btn btn-info"  class="text-center" data-bs-toggle="modal" data-bs-target="#buttercupinfo">$12.99</button>
+  
+                                          <!-- Modal -->
+                                            <div class="modal fade" id="buttercupinfo">
+                                                <div class="modal-dialog">
+                                                    <div class="modal-content">
+                                                        <div class="modal-header">
+                                                        <h2 class= &nbsp> BUTTERCUP &nbsp;</h2>
+                                                        <button type="button" id="btn-close1" class="btn-close me-0px" data-bs-dismiss="modal" ></button>
+                                                        </div>
+                                                        <div class="modal-body">
+                                                        <img src="/Images/Chinese_Wisteria_Blütentrauben.JPG" alt="Buttercup" width="100%" height="100%">
+                                                        <p>Ranunculus is a large genus of about 1700 to more than 1800 species of flowering plants in the family Ranunculaceae. Members of the genus are known as buttercups, spearworts and water crowfoots.</p>
+                                                        </div>
+                                                        <div class="modal-footer">
+                                                            <form id="closeForm" autocomplete="off">
+                                                                <div class="form-group">
+                                                                  <label for="number1"><P id="inputmessage">Please enter # of Arrangements</P></label>
+                                                                  <input type="number" class="number1" id="number1" buttontype="reset" autocomplete="off" required>                                                                
+                                                                </div><br>
+                                                                <button type="button" class="btn btn-default btn-sm" id="jar">
+                                                                            <span class="glyphiconglyphicon-shopping-cart">
+                                                                            </span>
+                                                                            <b>Preview Total</b>
+                                                                            </button>
+                                                                <div class="container">
+                                                                        <button type="button" class="btn btn-primary" id="cartButton" >
+                                                                    <b>Add to Cart<b>
+                                                                        </button>
+                                                                </div>
+                                                              </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+                            <script src="project1.js">
+
+  
+                            </script>
+                            </body>
+                            </html>
